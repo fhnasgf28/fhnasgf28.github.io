@@ -193,9 +193,10 @@ nav ul li a:hover {
 
 /* bagian main dkk */
 .container {
-  width: 1100px;
+  width: 75%;
   margin: auto;
   position: relative;
+  /* float: left; */
 }
 
 section {
@@ -274,6 +275,52 @@ section .bagian-ketiga h2 span {
 
 /* akhir main dkk */
 
+/* bagian asside (card) */
+main {
+  overflow: auto;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  /* display: block; */
+  position: relative;
+  margin-top: -1000px;
+  margin-right: 15px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 5px 5px 0 0;
+  width: 240px;
+  height: auto;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 9px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* akhir dari card */
+/* footer */
+
+footer {
+  padding: 20px;
+  color: rgb(252, 249, 249);
+  background-color: #536dfe;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+/* akhir footer */
 /* bagian media query */
 
 /* pada bagian ini dikhususkan untuk layar yang kecil seperti hp/trablet */
@@ -309,6 +356,17 @@ section .bagian-ketiga h2 span {
     margin-top: 50px;
     margin-left: 20px;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  aside {
+    width: 65%;
+
+    padding: 0;
+    margin-top: 10px;
+    /* overflow: auto; */
+    /* float: right; */
   }
 }
 
