@@ -1,0 +1,53 @@
+body {
+  background-color: #eaeaea;
+  font-family: "quicksand", sans-serif;
+  font-size: 14px;
+}
+
+/*Navbar*/
+.form-control {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+/*Akhir Navbar*/
+
+/*Row Keranjang*/
+.row-produk {
+  background-color: #fff;
+  margin: 0;
+  padding: 5px;
+  padding-top: 16px;
+}
+/*Akhir Row Keranjang*/
+
+/* Gambar */
+.img-keranjang {
+  width: 70px;
+}
+/* AKhir Gambar */
+
+/* Table Header */
+.th-header {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+/* Table Header */
+
+/* Responsive Table Checkout */
+@media only screen and (min-width: 768px) {
+  #table-checkout {
+    width: 40%;
+  }
+}
+/* Responsive Table Checkout */

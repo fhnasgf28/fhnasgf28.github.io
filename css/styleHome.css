@@ -1,0 +1,50 @@
+body {
+    font-family: "quicksand", sans-serif;
+    font-size: 16px;
+}
+
+/* style kategori */
+
+.img-kategori {
+    width: 50px;
+}
+
+.row-container{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.btn-dark {
+    background-color: #3bacb6 !important;
+    border: none;
+}
+
+.img-kategori:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+/* style produk */
+.card:hover {
+    border: 1px solid #3bacb6;
+    transition: 0.2s;
+}
+
+/* media screen */
+@media screen and (min-width: 994px) {
+    .form-control {
+        width: 350px;
+    }
+}
+
+.form-control {
+    font-size: 16px;
+}
+   
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+  

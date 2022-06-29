@@ -1,0 +1,46 @@
+body {
+    font-family: "quicksand", sans-serif;
+    font-size: 16px;
+}
+
+/* style produk */
+.row-produk {
+    background-color: #e9f1f1;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+
+/* Garis Nama */
+.garis-nama{
+    border-bottom: 2px solid #101111;
+    margin-top:10px ;
+    margin-bottom: 25px;
+}
+
+/* button Keranjang */
+
+
+/* style keranjang */
+.btn-custom {
+    padding: 10px;
+    font-size: 14px;
+}
+/* akhir button keranjan */
+/* media screen */
+@media screen and (min-width: 994px) {
+    .form-control {
+        width: 350px;
+    }
+}
+
+.form-control {
+    font-size: 16px;
+}
+   
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
