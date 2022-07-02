@@ -1,12 +1,12 @@
 body {
   background-color: #eaeaea;
   font-family: "quicksand", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /*Navbar*/
 .form-control {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 994px) {
@@ -21,6 +21,11 @@ body {
   }
 }
 /*Akhir Navbar*/
+
+.btn-dark {
+  background-color: #3bacb6 !important;
+  border: none;
+}
 
 /*Row Keranjang*/
 .row-produk {

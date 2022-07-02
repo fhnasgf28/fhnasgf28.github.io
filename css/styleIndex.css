@@ -17,6 +17,10 @@ body {
     padding: 2rem;
 }
 
+.btn-outline-primary {
+    background-color: #3bacb6 !important;
+    border: none;
+}
 .textJudul{
     font-family: 'Poppins', sans-serif;
     color: #2D2D2D;

@@ -20,6 +20,10 @@ body {
 
 /* button Keranjang */
 
+.btn-dark {
+    background-color: #3bacb6 !important;
+    border: none;
+}
 
 /* style keranjang */
 .btn-custom {

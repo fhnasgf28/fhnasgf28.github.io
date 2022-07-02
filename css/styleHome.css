@@ -19,6 +19,11 @@ body {
     border: none;
 }
 
+.btn-primary {
+    background-color: #3bacb6 !important;
+    border: none;
+}
+
 .img-kategori:hover {
     transform: scale(1.2);
     transition: 0.2s;
